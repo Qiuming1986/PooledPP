@@ -1,7 +1,6 @@
 PooledPP enables accurate, fast and low-cost construction of pseudo-pangenome graphs with pooled PacBio HiFi data
 
 ![Figure 1](https://github.com/user-attachments/assets/1966db69-6de1-40cf-b354-29ff5b2dd42e)
-
 Workflow of PooledPP
 
 PooledPP is a robust pipeline for constructing a pseudo-pangenome from pooled HiFi sequencing data. The workflow begins by aligning HiFi reads to a reference genome using pbmm2. Structural variation (SV) signatures are extracted (01.extractSignature.pl) and clustered (02.cluster.pl). Clustered signatures are then used to generate pseudo-genomes (03.generatePseudogenome.pl), which are further assembled into a pseudo-pangenome graph using minigraph (panel a).
