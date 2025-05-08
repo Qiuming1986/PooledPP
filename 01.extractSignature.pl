@@ -20,11 +20,11 @@ $min_sv_len = 50;                             # Minimum length for structural va
 $max_sv_len = 10000;                          # Maximum length for SVs (bp)
 $anchor_len_insertion = 230;                   # anchor length for insertion
 $anchor_len_deletion = 290;                    # anchor length for deletion
-$anchor_len_CGR = 10;                        # anchor length for CGR
-$anchor_len_duplication  = 10;              # anchor length for duplication
-$anchor_len_complexInsertion = 10;           # anchor length for complex insertion
-$anchor_len_complexDeletion = 10;            # anchor length for complex deletion
-$anchor_len_SCGR = 10;                       # anchor length for SCGR
+$anchor_len_CGR = 260;                        # anchor length for CGR
+$anchor_len_duplication  = 210;              # anchor length for duplication
+$anchor_len_complexInsertion = 230;           # anchor length for complex insertion
+$anchor_len_complexDeletion = 290;            # anchor length for complex deletion
+$anchor_len_SCGR = 340;                       # anchor length for SCGR
 $anchor_minDepth = 0.33;                      # minimum anchor depth ratio to overall mean
 $anchor_maxDepth = 3.00;                      # Maximum anchor depth ratio to overall mean
 
@@ -1586,11 +1586,11 @@ Options:
     --mitochondria-chr                      Sequence name for mitochondrial chromosome to exclude from analysis (optional)
     --anchor-len-insertion                  Minimum anchor length for insertion (default: 230 bp)
     --anchor-len-deletion                   Minimum anchor length for deletion (default: 290 bp)
-    --anchor-len-CGR                        Minimum anchor length for CGRs (complex genomic rearrangements) (default: 10 bp)
-    --anchor-len-duplication                Minimum anchor length for duplication (default: 10 bp)
-    --anchor-len-complexInsertion           Minimum anchor length for complex insertion in which split alignment exists (default: 10 bp)
-    --anchor-len-complexDeletion            Minimum anchor length for complex deletion in which split alignment exists (default: 10 bp)
-    --anchor-len-SCGR                       Minimum anchor length for SCGRs (super CGRs) (default: 10 bp)
+    --anchor-len-CGR                        Minimum anchor length for CGRs (complex genomic rearrangements) (default: 260 bp)
+    --anchor-len-duplication                Minimum anchor length for duplication (default: 210 bp)
+    --anchor-len-complexInsertion           Minimum anchor length for complex insertion in which split alignment exists (default: 230 bp)
+    --anchor-len-complexDeletion            Minimum anchor length for complex deletion in which split alignment exists (default: 290 bp)
+    --anchor-len-SCGR                       Minimum anchor length for SCGRs (super CGRs) (default: 340 bp)
     --anchor-minDepth                       Minimum anchor depth rattio to overall mean (default: 0.33)
     --anchor-maxDepth                       Maximum anchor depth rate to overall mean for insertion (default: 3.00)       
     --help                                  Show this help message and exit
