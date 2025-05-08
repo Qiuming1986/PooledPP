@@ -20,7 +20,7 @@ $max_distance_SCGR           = 500;  # Example default for SCGR
 
 $min_reads_support_insertion      = 2;
 $min_reads_support_deletion       = 2;
-$min_reads_support_CGR            = 9; # Example default for CGR
+$min_reads_support_CGR            = 13; # Example default for CGR
 $min_reads_support_duplication    = 18; # Example default for Duplication
 $min_reads_support_SCGR           = 18; # Example default for SCGR
 
@@ -2183,7 +2183,7 @@ Options:
     --max-distance-SCGR <int>                Maximum distance for clustering SCGR SVs (default: 500).
     --min-reads-support-insertion <int>      Minimum reads support for Insertion SVs (default: 2).
     --min-reads-support-deletion <int>       Minimum reads support for Deletion SVs (default: 2).
-    --min-reads-support-CGR <int>            Minimum reads support for CGR SVs (default: 9).
+    --min-reads-support-CGR <int>            Minimum reads support for CGR SVs (default: 13).
     --min-reads-support-duplication <int>    Minimum reads support for Duplication SVs (default: 18).
     --min-reads-support-SCGR <int>           Minimum reads support for SCGR SVs (default: 18).
     --weight-complexINSDEL <float>           Weight for complex insertion/deletion reads (default: 1).
